@@ -5,8 +5,8 @@
 # During data cleaning, we want to use only data that is from 2007 onward and under the SWAMP statewide program.
 
 # TO DO ----
-# Email Jennifer about data without moisture. Decide what to do with these samples.
-# Email Michelle about L1/L2 specifications. List out here what different result types exist in the df for both mercury & moisture.
+# Email Jennifer about data without moisture. <done> Decide what to do with these samples.
+# Email Michelle about L1/L2 specifications. List out here what different result types exist in the df for both mercury & moisture. <done>
 # Calculate dry weight
 # Naming conventions for column headers? Check with Anna.
 # Manually add L1/L2 info to duplicated row uniqueIDs.
@@ -111,7 +111,69 @@ sum(duplicated(dat$uniqueID) == TRUE)
 # TO DO: decide how to handle issue samples above, then revise the following numbers:
 length(which(is.na(dat$moisture_result)))
 # 60/136 samples (rows in the data including above duplicates) have no moisture data
-# 8.29 - reaching out to Jennifer to see why there are so many samples missing moisture data
+# 8.29 - reaching out to Jennifer to see why there are so many samples missing moisture data <done>
+
+# Jennifer's Pull from SWAMP Dataset ----
+# Jennifer's email: See if the attached file is what you had in your pull? I had to be really creative because the pull wasn’t straightforward because the Datawarehouse doesn’t allow you to select Program. I did the pull based on Protocol Code, Stations beginning with “2” and filtering Mercury and Moisture.
+
+# Load file
+pull = read.csv("R2_Hg_Moist.csv") %>%
+  # create a uniqueID column we can use to merge datasets and compare contents
+  unite(col = "uniqueID", c("StationCode", "CommonName", 'DWC_Year'), sep = "-", remove = F) %>%
+  mutate(TargetLongitude = format(TargetLongitude, nsmall = 6)) %>%
+  mutate(TargetLatitude = format(TargetLatitude, nsmall = 6)) %>%
+  # select specific columns we want to use to simplify looking at the dataset
+  select(uniqueID, OrganismID, StationName, StationCode, ProjectName, TargetLongitude, TargetLatitude, DWC_Year, SampleTypeName, CompositeID, UnitName, AnalyteName, Result) %>%  
+  # add a column with row numbers so R doesn't get confused by the fact that there are no unique rows while pivoting wider
+  mutate(n = row_number()) %>%
+  # make the dataset wider
+  pivot_wider(id_cols = uniqueID:n, names_from = AnalyteName, values_from = Result) %>%
+  # average values for each uniqueID
+  group_by(uniqueID, StationName, StationCode, ProjectName, TargetLongitude, TargetLatitude, DWC_Year) %>%
+  summarize(mercury_ugg_ww = mean(na.omit(Mercury)),
+            moisture = mean(na.omit(Moisture)),
+            # calculate dry weight using forumla: dry-weight = (wet-weight) / [1-(% moisture/100)]
+            mercury_ppm_dw = mercury_ugg_ww/(1-(moisture/100))
+            )
+
+# In pull, there are 83 columns, and many have different names for the same data type than in dat from the SWAMP Data Dashboard. For example, SampleYear in dat is DWC_Year in pull.
+
+names(pull)
+unique(pull$TissueName)
+# There is no TissuePrep column
+# A metadata file would be useful here
+
+# It looks like each sample has a different OrganismID. I will assume that LabBatch has all the same mercury and moisture values across samples, and average them in order to reduce the number of samples to input into the map (one per location/date/species.)
+
+# Once we have done all of the above, we end up with data formatted the same way as dat, and 219 samples as opposed to 136 in dat. Let's explore the differences in sample number.
+
+# first, how many duplicates are there?
+sum(duplicated(pull$uniqueID) == TRUE)
+# 0
+
+# Are there differences in stations? Which are in the pull dataset that are not in the dat dataset?
+setdiff(unique(pull$StationName), unique(dat$StationName))
+
+# [1] "San Mateo Coast"                                            
+# [2] "Pilarcitos Lake"                                            
+# [3] "Horseshoe Lake, Quarry Lakes "                              
+# [4] "Shadow Cliffs Reservoir"                                    
+# [5] "Lake Chabot"                                                
+# [6] "Lago Los Osos"                                              
+# [7] "Camden Percolation Pond across from Page Desilting Basin #2"
+# [8] "Camden Percolation Pond below Los Gatos Creek Park #3"      
+# [9] "Lake Cunningham"                                            
+# [10] "Lake Elizabeth"                                             
+# [11] "Lake Madigan"    
+
+# Many are those we removed from the mercury dataset because there was no associated moisture data.
+
+# What about uniqueIDs?
+length(setdiff(unique(pull$uniqueID), unique(dat$uniqueID)))
+# 86 are different, whereas the difference in the number of rows is 83 - but there are 3 duplicates in dat, so that makes sense. I think we just want to keep all the samples in the pull dataset and make the map from that data.
+
+# Save a csv of the pull dataset
+write.csv(pull, "pull.csv")
 
 # Troubleshooting issues with cleaning data ----
 # 1. Tissue types ----

@@ -1,0 +1,220 @@
+"","uniqueID","StationName","StationCode","ProjectName","TargetLongitude","TargetLatitude","DWC_Year","mercury","moisture"
+"1","20150FARI-Blue Rockfish-2009","Farallon Islands","20150FARI","Statewide Coast Sportfish Contamination Study 2009","-123.030029","37.702358",2009,0.0403333333333333,76.52
+"2","20150FARI-Gopher Rockfish-2009","Farallon Islands","20150FARI","Statewide Coast Sportfish Contamination Study 2009","-123.030029","37.702358",2009,0.289,77.78
+"3","20150FARI-Olive Rockfish-2009","Farallon Islands","20150FARI","Statewide Coast Sportfish Contamination Study 2009","-123.030029","37.702358",2009,0.320466666666667,78.12
+"4","20151SMAC-Barred Surfperch-2009","Southern Marin Coast","20151SMAC","Statewide Coast Sportfish Contamination Study 2009","-122.720843","37.888443",2009,0.17275,76.52375
+"5","20151SMAC-White Croaker-2009","Southern Marin Coast","20151SMAC","Statewide Coast Sportfish Contamination Study 2009","-122.720843","37.888443",2009,0.208,78.4
+"6","20152TBAY-Brown Smooth-hound Shark-2009","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2009","-122.927284","38.187871",2009,0.832,77.33
+"7","20152TBAY-California Halibut-2020","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2020","-122.927284","38.187871",2020,0.1355,73.91
+"8","20152TBAY-Leopard shark-2009","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2009","-122.927284","38.187871",2009,1.22,76.06
+"9","20152TBAY-Leopard shark-2020","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2020","-122.927284","38.187871",2020,1.6074,74.1711111111111
+"10","20152TBAY-Pacific Common Thresher Shark-2020","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2020","-122.927284","38.187871",2020,0.11175,72.9333333333333
+"11","20152TBAY-Shiner Surfperch-2009","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2009","-122.927284","38.187871",2009,0.0643529411764706,75.58
+"12","20152TBAY-Top Smelt-2009","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2009","-122.927284","38.187871",2009,0.052,72.51
+"13","20152TBAY-White Surfperch-2009","Tomales Bay","20152TBAY","Statewide Coast Sportfish Contamination Study 2009","-122.927284","38.187871",2009,0.0955,77.85
+"14","20153NMRC-Blue Rockfish-2009","Northern Marin Coast","20153NMRC","Statewide Coast Sportfish Contamination Study 2009","-122.996138","38.213253",2009,0.0606666666666667,78.6066666666667
+"15","20153NMRC-Brown Rockfish-2009","Northern Marin Coast","20153NMRC","Statewide Coast Sportfish Contamination Study 2009","-122.996138","38.213253",2009,0.53525,80.14
+"16","20153NMRC-Olive Rockfish-2009","Northern Marin Coast","20153NMRC","Statewide Coast Sportfish Contamination Study 2009","-122.996138","38.213253",2009,0.0744615384615385,78.255
+"17","201ALPELK-Bluegill-2016","Alpine Lake","201ALPELK","SWB Monitoring of Lk_Res 2016","-122.628450","37.949450",2016,0.10875,79.8675
+"18","201ALPELK-Largemouth Bass-2016","Alpine Lake","201ALPELK","SWB Monitoring of Lk_Res 2016","-122.628450","37.949450",2016,0.302636363636364,78.642380952381
+"19","201KENTLK-Bluegill-2016","Kent Lake","201KENTLK","SWB Monitoring of Lk_Res 2016","-122.693430","37.983810",2016,0.281777777777778,80.4075
+"20","201KENTLK-Green Sunfish-2016","Kent Lake","201KENTLK","SWB Monitoring of Lk_Res 2016","-122.693430","37.983810",2016,0.145,79.79
+"21","201KENTLK-Largemouth Bass-2016","Kent Lake","201KENTLK","SWB Monitoring of Lk_Res 2016","-122.693430","37.983810",2016,0.310090909090909,80.5571428571428
+"22","201PBT189-Bluegill-2023","Bon Tempe Lake_BOG","201PBT189","SWB Long-Term Monitoring of Bass Lk_Res 2023","-122.605790","37.953010",2023,0.044,76.37
+"23","201PBT189-Largemouth Bass-2007","Bon Tempe Lake_BOG","201PBT189","Statewide Lakes Sportfish Contamination Study 2007","-122.605790","37.953010",2007,0.298545454545455,77.96
+"24","201PBT189-Largemouth Bass-2023","Bon Tempe Lake_BOG","201PBT189","SWB Long-Term Monitoring of Bass Lk_Res 2023","-122.605790","37.953010",2023,0.281074074074074,78.5796
+"25","201PNL105-Black Crappie-2017","Nicasio Lake","201PNL105","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.730430","38.076820",2017,0.184,80.97
+"26","201PNL105-Bluegill-2017","Nicasio Lake","201PNL105","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.730430","38.076820",2017,0.049,75.87
+"27","201PNL105-Goby-2017","Nicasio Lake","201PNL105","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.730430","38.076820",2017,0.066,77.62
+"28","201PNL105-Largemouth Bass-2008","Nicasio Lake","201PNL105","Statewide Lakes Sportfish Contamination Study 2008","-122.730430","38.076820",2008,0.4401875,79.6775
+"29","201PNL105-Largemouth Bass-2017","Nicasio Lake","201PNL105","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.730430","38.076820",2017,0.237857142857143,79.6628571428571
+"30","201PSL093-Black Crappie-2021","Soulejoule Lake","201PSL093","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.777874","38.147345",2021,1.12815384615385,80.2572727272727
+"31","201PSL093-Bluegill-2021","Soulejoule Lake","201PSL093","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.777874","38.147345",2021,0.246722222222222,75.50875
+"32","201PSL093-Brown Bullhead-2021","Soulejoule Lake","201PSL093","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.777874","38.147345",2021,0.134,80.125
+"33","201PSL093-Largemouth Bass-2007","Soulejoule Lake","201PSL093","Statewide Lakes Sportfish Contamination Study 2007","-122.777874","38.147345",2007,1.11336842105263,78.20875
+"34","201PSL093-Largemouth Bass-2021","Soulejoule Lake","201PSL093","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.777874","38.147345",2021,1.416,78.4833333333333
+"35","201PSL093-Sculpin-2021","Soulejoule Lake","201PSL093","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.777874","38.147345",2021,0.228916666666667,75.48625
+"36","20245SMAT-Black Rockfish-2009","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2009","-122.396663","37.179009",2009,0.0544,77.848
+"37","20245SMAT-Black Rockfish-2020","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2020","-122.396663","37.179009",2020,0.115714285714286,77.568
+"38","20245SMAT-Blue Rockfish-2009","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2009","-122.396663","37.179009",2009,0.096875,79.142
+"39","20245SMAT-Blue Rockfish-2020","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2020","-122.396663","37.179009",2020,0.04,77.79
+"40","20245SMAT-Brown Rockfish-2020","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2020","-122.396663","37.179009",2020,0.14925,78.2475
+"41","20245SMAT-Gopher Rockfish-2009","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2009","-122.396663","37.179009",2009,0.433,79.17
+"42","20245SMAT-Gopher Rockfish-2020","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2020","-122.396663","37.179009",2020,0.3965,78.52
+"43","20245SMAT-Jacksmelt-2020","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2020","-122.396663","37.179009",2020,0.191,74.16
+"44","20245SMAT-Olive Rockfish-2009","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2009","-122.396663","37.179009",2009,0.211625,79.402
+"45","20245SMAT-Vermillion Rockfish-2020","San Mateo Coast","20245SMAT","Statewide Coast Sportfish Contamination Study 2020","-122.396663","37.179009",2020,0.05725,77.5533333333333
+"46","20246PPTH-Black Perch-2009","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2009","-122.478335","37.501376",2009,0.0605,78.395
+"47","20246PPTH-Black Perch-2020","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2020","-122.478335","37.501376",2020,0.039,78.28
+"48","20246PPTH-California Halibut-2020","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2020","-122.478335","37.501376",2020,0.073,74.32
+"49","20246PPTH-Rainbow Surfperch-2020","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2020","-122.478335","37.501376",2020,0.045,78.06
+"50","20246PPTH-Shiner Surfperch-2009","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2009","-122.478335","37.501376",2009,0.0711714285714286,76.2
+"51","20246PPTH-Shiner Surfperch-2020","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2020","-122.478335","37.501376",2020,0.046,78.04
+"52","20246PPTH-Surf Smelt-2020","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2020","-122.478335","37.501376",2020,0.067,79.78
+"53","20246PPTH-Top Smelt-2009","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2009","-122.478335","37.501376",2009,0.085,72.34
+"54","20246PPTH-White Croaker-2009","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2009","-122.478335","37.501376",2009,0.103,76.39
+"55","20246PPTH-White Croaker-2020","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2020","-122.478335","37.501376",2020,0.073,76.56
+"56","20246PPTH-White Surfperch-2009","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2009","-122.478335","37.501376",2009,0.0885294117647059,76.26
+"57","20246PPTH-White Surfperch-2020","Pillar Point Harbor","20246PPTH","Statewide Coast Sportfish Contamination Study 2020","-122.478335","37.501376",2020,0.043,77.21
+"58","20247HMBC-Barred Surfperch-2009","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2009","-122.530640","37.320420",2009,0.1986,78.446
+"59","20247HMBC-Blue Rockfish-2009","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2009","-122.530640","37.320420",2009,0.0743333333333333,76.6916666666667
+"60","20247HMBC-Blue Rockfish-2010","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2010","-122.530640","37.320420",2010,0.07,77.2
+"61","20247HMBC-Blue Rockfish-2020","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2020","-122.530640","37.320420",2020,0.091,77.03
+"62","20247HMBC-Brown Rockfish-2009","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2009","-122.530640","37.320420",2009,0.262,78.22
+"63","20247HMBC-Brown Rockfish-2020","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2020","-122.530640","37.320420",2020,0.239181818181818,77.948
+"64","20247HMBC-Canary Rockfish-2020","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2020","-122.530640","37.320420",2020,0.081,77.67
+"65","20247HMBC-Deacon Rockfish-2020","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2020","-122.530640","37.320420",2020,0.100666666666667,78.45
+"66","20247HMBC-Gopher Rockfish-2009","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2009","-122.530640","37.320420",2009,0.255,78.91
+"67","20247HMBC-Jacksmelt-2020","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2020","-122.530640","37.320420",2020,0.083,74.22
+"68","20247HMBC-Lingcod-2009","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2009","-122.530640","37.320420",2009,0.268,78.79
+"69","20247HMBC-Yellowtail Rockfish-2020","Half Moon Bay Coast","20247HMBC","Statewide Coast Sportfish Contamination Study 2020","-122.530640","37.320420",2020,0.0565,76.065
+"70","20248PACC-Blue Rockfish-2009","Pacifica Coast","20248PACC","Statewide Coast Sportfish Contamination Study 2009","-122.536098","37.602580",2009,0.0833333333333333,76.3
+"71","20248PACC-Gopher Rockfish-2009","Pacifica Coast","20248PACC","Statewide Coast Sportfish Contamination Study 2009","-122.536098","37.602580",2009,0.341,77.45
+"72","20248PACC-Jacksmelt-2020","Pacifica Coast","20248PACC","Statewide Coast Sportfish Contamination Study 2020","-122.536098","37.602580",2020,0.035,74.83
+"73","20248PACC-Lingcod-2009","Pacifica Coast","20248PACC","Statewide Coast Sportfish Contamination Study 2009","-122.536098","37.602580",2009,0.416,77.66
+"74","20248PACC-Pacific Sanddab-2020","Pacifica Coast","20248PACC","Statewide Coast Sportfish Contamination Study 2020","-122.536098","37.602580",2020,0.053,81.07
+"75","20249SSFC-Barred Surfperch-2009","San Francisco Coast","20249SSFC","Statewide Coast Sportfish Contamination Study 2009","-122.518106","37.736466",2009,0.1246,75.981
+"76","20249SSFC-White Croaker-2009","San Francisco Coast","20249SSFC","Statewide Coast Sportfish Contamination Study 2009","-122.518106","37.736466",2009,0.238,77.5
+"77","202LKMRCD-Channel Catfish-2014","Lake Merced","202LKMRCD","Statewide Lakes Sportfish Low Contam. Study 2014","-122.497184","37.727280",2014,0.155,62.975
+"78","202LKMRCD-Largemouth Bass-2014","Lake Merced","202LKMRCD","Statewide Lakes Sportfish Low Contam. Study 2014","-122.497184","37.727280",2014,0.353272727272727,79.08
+"79","202LKMRCD-Rainbow Trout-2014","Lake Merced","202LKMRCD","Statewide Lakes Sportfish Low Contam. Study 2014","-122.497184","37.727280",2014,0.05425,77.2
+"80","202TP0362-Rainbow Trout-2007","Pilarcitos Lake","202TP0362","Statewide Lakes Sportfish Contamination Study 2007","-122.432320","37.554670",2007,0.263857142857143,76.6242857142857
+"81","203TEMLAK-Bluegill-2016","Lake Temescal","203TEMLAK","SWB Monitoring of Lk_Res 2016","-122.230386","37.846406",2016,0.208848484848485,77.7761538461538
+"82","203TEMLAK-Common Carp-2013","Lake Temescal","203TEMLAK","RWB2 EBRPD Fish Bioaccumulation Study 2013","-122.230386","37.846406",2013,0.118,63.57
+"83","203TEMLAK-Green Sunfish-2013","Lake Temescal","203TEMLAK","RWB2 EBRPD Fish Bioaccumulation Study 2013","-122.230386","37.846406",2013,0.078,81.0966666666667
+"84","203TEMLAK-Green Sunfish-2016","Lake Temescal","203TEMLAK","SWB Monitoring of Lk_Res 2016","-122.230386","37.846406",2016,0.0476153846153846,78.9076923076923
+"85","203TEMLAK-Largemouth Bass-2013","Lake Temescal","203TEMLAK","RWB2 EBRPD Fish Bioaccumulation Study 2013","-122.230386","37.846406",2013,0.203714285714286,79.5781818181818
+"86","203TEMLAK-Largemouth Bass-2016","Lake Temescal","203TEMLAK","SWB Monitoring of Lk_Res 2016","-122.230386","37.846406",2016,0.271769230769231,78.8336363636364
+"87","203TEMLAK-Largemouth Bass-2020","Lake Temescal","203TEMLAK","RWB2 Hg TMDL Temescal Reservoir Pilot Tests 2020","-122.230386","37.846406",2020,0.273340425531915,77.0417948717949
+"88","203TEMLAK-Rainbow Trout-2013","Lake Temescal","203TEMLAK","RWB2 EBRPD Fish Bioaccumulation Study 2013","-122.230386","37.846406",2013,0.067,73.29
+"89","204ALA040-Channel Catfish-2010","Horseshoe Lake, Quarry Lakes ","204ALA040","RWB2 Lakes Sportfish Contamination Study 2010","-122.006241","37.576777",2010,0.114,79.24
+"90","204AMO065-Channel Catfish-2010","Shadow Cliffs Reservoir","204AMO065","RWB2 Lakes Sportfish Contamination Study 2010","-121.832650","37.668080",2010,0.122666666666667,80.1566666666667
+"91","204PDV169-Bluegill-2021","Lake del Valle","204PDV169","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.714460","37.589540",2021,0.073,76.84
+"92","204PDV169-Channel Catfish-2008","Lake del Valle","204PDV169","Statewide Lakes Sportfish Contamination Study 2008","-121.714460","37.589540",2008,0.222,80
+"93","204PDV169-Largemouth Bass-2008","Lake del Valle","204PDV169","Statewide Lakes Sportfish Contamination Study 2008","-121.714460","37.589540",2008,0.577357142857143,78.7
+"94","204PDV169-Largemouth Bass-2021","Lake del Valle","204PDV169","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.714460","37.589540",2021,0.39344,78.4791666666667
+"95","204PDV169-Mississippi silverside-2021","Lake del Valle","204PDV169","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.714460","37.589540",2021,0.096,74.19
+"96","204PSC113-Bluegill-2021","Shadow Cliffs Reservoir_BOG","204PSC113","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.835810","37.669630",2021,0.054,76.45
+"97","204PSC113-Channel Catfish-2008","Shadow Cliffs Reservoir_BOG","204PSC113","Statewide Lakes Sportfish Contamination Study 2008","-121.835810","37.669630",2008,0.1185,78.38
+"98","204PSC113-Channel Catfish-2021","Shadow Cliffs Reservoir_BOG","204PSC113","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.835810","37.669630",2021,0.095,79.8
+"99","204PSC113-Green Sunfish-2021","Shadow Cliffs Reservoir_BOG","204PSC113","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.835810","37.669630",2021,0.0584166666666667,79.451
+"100","204PSC113-Largemouth Bass-2008","Shadow Cliffs Reservoir_BOG","204PSC113","Statewide Lakes Sportfish Contamination Study 2008","-121.835810","37.669630",2008,0.643071428571429,77.3654545454546
+"101","204PSC113-Largemouth Bass-2021","Shadow Cliffs Reservoir_BOG","204PSC113","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.835810","37.669630",2021,0.393055555555556,79.099375
+"102","204PSC113-Sacramento Sucker-2021","Shadow Cliffs Reservoir_BOG","204PSC113","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.835810","37.669630",2021,0.017,88
+"103","204PSC113-Sculpin-2021","Shadow Cliffs Reservoir_BOG","204PSC113","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.835810","37.669630",2021,0.0469230769230769,77.4345454545455
+"104","204SLE100-Bluegill-2010","Lake Chabot","204SLE100","RWB2 Lakes Sportfish Contamination Study 2010","-122.106360","37.720620",2010,0.101,78.91
+"105","204SLE100-Bluegill-2013","Lake Chabot","204SLE100","RWB2 EBRPD Fish Bioaccumulation Study 2013","-122.106360","37.720620",2013,0.216,80.33
+"106","204SLE100-Green Sunfish-2010","Lake Chabot","204SLE100","RWB2 Lakes Sportfish Contamination Study 2010","-122.106360","37.720620",2010,0.138,80.43
+"107","204TC0114-Bluegill-2021","Lower Crystal Springs Reserv","204TC0114","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.371300","37.531330",2021,0.076,75.56
+"108","204TC0114-Largemouth Bass-2007","Lower Crystal Springs Reserv","204TC0114","Statewide Lakes Sportfish Contamination Study 2007","-122.371300","37.531330",2007,0.892272727272727,78.7272727272727
+"109","204TC0114-Largemouth Bass-2021","Lower Crystal Springs Reserv","204TC0114","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.371300","37.531330",2021,0.288340425531915,78.5233333333333
+"110","204TC0114-Sculpin-2021","Lower Crystal Springs Reserv","204TC0114","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.371300","37.531330",2021,0.13,76.75
+"111","204TC0122-Bluegill-2019","Calaveras Reservoir","204TC0122","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.820420","37.470510",2019,0.1755,75.415
+"112","204TC0122-Largemouth Bass-2007","Calaveras Reservoir","204TC0122","Statewide Lakes Sportfish Contamination Study 2007","-121.820420","37.470510",2007,0.684,79.5818181818182
+"113","204TC0122-Largemouth Bass-2019","Calaveras Reservoir","204TC0122","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.820420","37.470510",2019,0.916190476190476,76.5110416666667
+"114","204TC0514-Bluegill-2019","Lake Chabot (San Leandro)_BOG","204TC0514","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.106360","37.720620",2019,0.074,79.56
+"115","204TC0514-Common Carp-2007","Lake Chabot (San Leandro)_BOG","204TC0514","Statewide Lakes Sportfish Contamination Study 2007","-122.106360","37.720620",2007,0.4145,75.42
+"116","204TC0514-Common Carp-2019","Lake Chabot (San Leandro)_BOG","204TC0514","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.106360","37.720620",2019,0.2465,76.47
+"117","204TC0514-Largemouth Bass-2007","Lake Chabot (San Leandro)_BOG","204TC0514","Statewide Lakes Sportfish Contamination Study 2007","-122.106360","37.720620",2007,0.535545454545455,77.9390909090909
+"118","204TC0514-Largemouth Bass-2019","Lake Chabot (San Leandro)_BOG","204TC0514","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.106360","37.720620",2019,0.776884615384616,81.0133333333333
+"119","204TC0514-Mississippi silverside-2019","Lake Chabot (San Leandro)_BOG","204TC0514","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.106360","37.720620",2019,0.181,79.24
+"120","204TL0138-Bluegill-2017","Upper San Leandro Reservoir","204TL0138","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.117480","37.776060",2017,0.16125,79.33
+"121","204TL0138-Goby-2017","Upper San Leandro Reservoir","204TL0138","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.117480","37.776060",2017,0.037,79.09
+"122","204TL0138-Largemouth Bass-2007","Upper San Leandro Reservoir","204TL0138","Statewide Lakes Sportfish Contamination Study 2007","-122.117480","37.776060",2007,1.09627272727273,78.9790909090909
+"123","204TL0138-Largemouth Bass-2017","Upper San Leandro Reservoir","204TL0138","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.117480","37.776060",2017,0.459826086956522,79.2557142857143
+"124","204TL0138-Redear Sunfish-2017","Upper San Leandro Reservoir","204TL0138","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.117480","37.776060",2017,0.161,80.902
+"125","204TU0318-Channel Catfish-2007","Lago Los Osos","204TU0318","Statewide Lakes Sportfish Contamination Study 2007","-121.998660","37.569820",2007,0.012,76.33
+"126","205ALMDNR-Black Crappie-2019","Almaden Reservoir","205ALMDNR","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.831060","37.162450",2019,0.384,80.11
+"127","205ALMDNR-Largemouth Bass-2019","Almaden Reservoir","205ALMDNR","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.831060","37.162450",2019,1.80083333333333,77.6391666666667
+"128","205ALMDNR-Redear Sunfish-2019","Almaden Reservoir","205ALMDNR","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.831060","37.162450",2019,1.11425,81.53
+"129","205ALMDNR-Threadfin Shad-2019","Almaden Reservoir","205ALMDNR","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.831060","37.162450",2019,0.88,81.2
+"130","205CPP002-Common Carp-2011","Camden Percolation Pond across from Page Desilting Basin #2","205CPP002","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.952360","37.264740",2011,0.0985,72.82
+"131","205CPP002-Largemouth Bass-2011","Camden Percolation Pond across from Page Desilting Basin #2","205CPP002","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.952360","37.264740",2011,0.194625,78.285
+"132","205CPP002-Rainbow Trout-2011","Camden Percolation Pond across from Page Desilting Basin #2","205CPP002","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.952360","37.264740",2011,0.0195714285714286,76.8633333333333
+"133","205CPP003-Bluegill-2011","Camden Percolation Pond below Los Gatos Creek Park #3","205CPP003","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.951380","37.266960",2011,0.3216,80.01
+"134","205CPP003-Common Carp-2011","Camden Percolation Pond below Los Gatos Creek Park #3","205CPP003","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.951380","37.266960",2011,0.0605,79.115
+"135","205CPP003-Largemouth Bass-2011","Camden Percolation Pond below Los Gatos Creek Park #3","205CPP003","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.951380","37.266960",2011,0.074,77.62
+"136","205CPP003-Largemouth Bass-2021","Camden Percolation Pond below Los Gatos Creek Park #3","205CPP003","RWB2 Hg TMDL Camden Percolation Ponds Study 2021","-121.951380","37.266960",2021,0.199392857142857,78.8904166666667
+"137","205PAD016-Common Carp-2007","Anderson Lake_BOG","205PAD016","Statewide Lakes Sportfish Contamination Study 2007","-121.612430","37.162650",2007,0.416,77.135
+"138","205PAD016-Largemouth Bass-2007","Anderson Lake_BOG","205PAD016","Statewide Lakes Sportfish Contamination Study 2007","-121.612430","37.162650",2007,1.05271428571429,78.4518181818182
+"139","205PAL221-Common Carp-2008","Almaden Lake","205PAL221","Statewide Lakes Sportfish Contamination Study 2008","-121.871310","37.241000",2008,1.035,74.67
+"140","205PAL221-Largemouth Bass-2008","Almaden Lake","205PAL221","Statewide Lakes Sportfish Contamination Study 2008","-121.871310","37.241000",2008,2.24,78.7118181818182
+"141","205PCL212-Black Crappie-2016","Coyote Lake","205PCL212","SWB Monitoring of Lk_Res 2016","-121.537110","37.092210",2016,0.215894736842105,76.9857142857143
+"142","205PCL212-Black Crappie-2017","Coyote Lake","205PCL212","SWB Long-Term Monitoring of Bass Lk_Res 2017","-121.537110","37.092210",2017,0.456411764705882,81.077
+"143","205PCL212-Bluegill-2016","Coyote Lake","205PCL212","SWB Monitoring of Lk_Res 2016","-121.537110","37.092210",2016,0.1545,77.095
+"144","205PCL212-Bluegill-2017","Coyote Lake","205PCL212","SWB Long-Term Monitoring of Bass Lk_Res 2017","-121.537110","37.092210",2017,0.351625,78.035
+"145","205PCL212-Common Carp-2008","Coyote Lake","205PCL212","Statewide Lakes Sportfish Contamination Study 2008","-121.537110","37.092210",2008,0.408,77.385
+"146","205PCL212-Common Carp-2016","Coyote Lake","205PCL212","SWB Monitoring of Lk_Res 2016","-121.537110","37.092210",2016,0.2725,77.165
+"147","205PCL212-Largemouth Bass-2008","Coyote Lake","205PCL212","Statewide Lakes Sportfish Contamination Study 2008","-121.537110","37.092210",2008,0.682363636363636,74.82
+"148","205PCL212-Largemouth Bass-2016","Coyote Lake","205PCL212","SWB Monitoring of Lk_Res 2016","-121.537110","37.092210",2016,0.416904761904762,77.6719047619048
+"149","205PCL212-Largemouth Bass-2017","Coyote Lake","205PCL212","SWB Long-Term Monitoring of Bass Lk_Res 2017","-121.537110","37.092210",2017,0.574826086956522,79.1757142857143
+"150","205PCL212-Threadfin Shad-2016","Coyote Lake","205PCL212","SWB Monitoring of Lk_Res 2016","-121.537110","37.092210",2016,0.17,79.28
+"151","205PCR128-Largemouth Bass-2008","Calero Reservoir","205PCR128","Statewide Lakes Sportfish Contamination Study 2008","-121.777310","37.178390",2008,1.38405263157895,76.796875
+"152","205PCR128-Largemouth Bass-2021","Calero Reservoir","205PCR128","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.777310","37.178390",2021,0.35784375,76.6317857142857
+"153","205PCR128-Threadfin Shad-2021","Calero Reservoir","205PCR128","SWB Long-Term Monitoring of Bass Lk_Res 2021","-121.777310","37.178390",2021,0.062,77.44
+"154","205PLC222-Common Carp-2008","Lake Cunningham","205PLC222","Statewide Lakes Sportfish Contamination Study 2008","-121.808110","37.335730",2008,0.0935,68.21
+"155","205PLE219-Common Carp-2008","Lake Elizabeth","205PLE219","Statewide Lakes Sportfish Contamination Study 2008","-121.961740","37.548200",2008,0.149,73.545
+"156","205PLR144-Bluegill-2019","Lexington Reservoir_BOG","205PLR144","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.985600","37.173490",2019,0.103,73.73
+"157","205PLR144-Largemouth Bass-2019","Lexington Reservoir_BOG","205PLR144","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.985600","37.173490",2019,0.532153846153846,77.4022727272727
+"158","205PLR144-Mississippi silverside-2019","Lexington Reservoir_BOG","205PLR144","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.985600","37.173490",2019,0.122,79.12
+"159","205PLR144-Spotted Bass-2019","Lexington Reservoir_BOG","205PLR144","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.985600","37.173490",2019,0.705285714285714,77.0857142857143
+"160","205PLR144-Threadfin Shad-2019","Lexington Reservoir_BOG","205PLR144","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.985600","37.173490",2019,0.036,79.99
+"161","205PLV218-Bluegill-2011","Lake Vasona","205PLV218","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.969020","37.243900",2011,0.1025,79.51
+"162","205PLV218-Bluegill-2015","Lake Vasona","205PLV218","SWB Long-Term Monitoring of Bass Lk_Res 2015","-121.969020","37.243900",2015,0.014,76.34
+"163","205PLV218-Channel Catfish-2011","Lake Vasona","205PLV218","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.969020","37.243900",2011,0.3482,80.105
+"164","205PLV218-Common Carp-2008","Lake Vasona","205PLV218","Statewide Lakes Sportfish Contamination Study 2008","-121.969020","37.243900",2008,0.057,76.75
+"165","205PLV218-Common Carp-2011","Lake Vasona","205PLV218","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.969020","37.243900",2011,0.108,78.02
+"166","205PLV218-Common Carp-2015","Lake Vasona","205PLV218","SWB Long-Term Monitoring of Bass Lk_Res 2015","-121.969020","37.243900",2015,0.042,75.75
+"167","205PLV218-Goldfish-2011","Lake Vasona","205PLV218","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.969020","37.243900",2011,0.101,74.89
+"168","205PLV218-Largemouth Bass-2008","Lake Vasona","205PLV218","Statewide Lakes Sportfish Contamination Study 2008","-121.969020","37.243900",2008,0.188363636363636,78.7272727272727
+"169","205PLV218-Largemouth Bass-2011","Lake Vasona","205PLV218","RWB2 Lake Vasona Bioaccumulation Study 2011","-121.969020","37.243900",2011,0.2119,79.779
+"170","205PLV218-Largemouth Bass-2015","Lake Vasona","205PLV218","SWB Long-Term Monitoring of Bass Lk_Res 2015","-121.969020","37.243900",2015,0.130074074074074,79.1247619047619
+"171","205PLV218-Silverside-2015","Lake Vasona","205PLV218","SWB Long-Term Monitoring of Bass Lk_Res 2015","-121.969020","37.243900",2015,0.013,76.8
+"172","205PSC048-Bluegill-2019","Stevens Creek Reservoir","205PSC048","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.078900","37.295800",2019,0.14,75.85
+"173","205PSC048-Channel Catfish-2019","Stevens Creek Reservoir","205PSC048","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.078900","37.295800",2019,1,79.3
+"174","205PSC048-Common Carp-2007","Stevens Creek Reservoir","205PSC048","Statewide Lakes Sportfish Contamination Study 2007","-122.078900","37.295800",2007,0.306,75.915
+"175","205PSC048-Largemouth Bass-2007","Stevens Creek Reservoir","205PSC048","Statewide Lakes Sportfish Contamination Study 2007","-122.078900","37.295800",2007,0.601454545454545,78.0290909090909
+"176","205PSC048-Largemouth Bass-2019","Stevens Creek Reservoir","205PSC048","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.078900","37.295800",2019,0.638576923076923,78.4054166666667
+"177","205ST0538-Bluegill-2019","Guadalupe Reservoir-205ST0538","205ST0538","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.872700","37.192500",2019,1.21146666666667,75.9453333333333
+"178","205ST0538-Largemouth Bass-2019","Guadalupe Reservoir-205ST0538","205ST0538","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.872700","37.192500",2019,3.31846153846154,78.0324
+"179","205ST0538-Largemouth Bass-2020","Guadalupe Reservoir-205ST0538","205ST0538","RWB2 Hg TMDL Guadalupe Reservoir Pilot Tests 2020","-121.872700","37.192500",2020,1.07795652173913,79.65
+"180","205ST0538-Rainbow Trout-2019","Guadalupe Reservoir-205ST0538","205ST0538","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.872700","37.192500",2019,3.815,77.58
+"181","205TU0132-Largemouth Bass-2007","Oiger Quarry Ponds","205TU0132","Statewide Lakes Sportfish Contamination Study 2007","-121.693430","37.183040",2007,0.737357142857143,79.2918181818182
+"182","205TU0132-Largemouth Bass-2019","Oiger Quarry Ponds","205TU0132","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.693430","37.183040",2019,0.478074074074074,79.5141666666667
+"183","205TU0132-Sacramento Sucker-2007","Oiger Quarry Ponds","205TU0132","Statewide Lakes Sportfish Contamination Study 2007","-121.693430","37.183040",2007,0.2855,78.815
+"184","205TU0132-Sculpin-2019","Oiger Quarry Ponds","205TU0132","SWB Long-Term Monitoring of Bass Lk_Res 2019","-121.693430","37.183040",2019,0.026,82.04
+"185","206LHENSY-Bluegill-2013","Lake Hennessey","206LHENSY","Statewide Lakes Wildlife Contamination Study 2013","-122.375956","38.489470",2013,0.1026,74.24
+"186","206LHENSY-Largemouth Bass-2013","Lake Hennessey","206LHENSY","Statewide Lakes Wildlife Contamination Study 2013","-122.375956","38.489470",2013,0.4528,77.568
+"187","206LHENSY-Silverside-2013","Lake Hennessey","206LHENSY","Statewide Lakes Wildlife Contamination Study 2013","-122.375956","38.489470",2013,0.122076923076923,76.44
+"188","206LHENSY-Threadfin Shad-2013","Lake Hennessey","206LHENSY","Statewide Lakes Wildlife Contamination Study 2013","-122.375956","38.489470",2013,0.06975,78.92
+"189","206PLC157-Bluegill-2021","Lake Chabot (Vallejo)","206PLC157","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.235650","38.136180",2021,0.0785,78.96
+"190","206PLC157-Common Carp-2007","Lake Chabot (Vallejo)","206PLC157","Statewide Lakes Sportfish Contamination Study 2007","-122.235650","38.136180",2007,0.3978,72.265
+"191","206PLC157-Golden Shiner-2021","Lake Chabot (Vallejo)","206PLC157","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.235650","38.136180",2021,0.041,74.51
+"192","206PLC157-Largemouth Bass-2007","Lake Chabot (Vallejo)","206PLC157","Statewide Lakes Sportfish Contamination Study 2007","-122.235650","38.136180",2007,0.869285714285714,78.1
+"193","206PLC157-Largemouth Bass-2021","Lake Chabot (Vallejo)","206PLC157","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.235650","38.136180",2021,0.23996,79.0858333333333
+"194","206PSP205-Bluegill-2017","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.237903","37.922984",2017,0.062,75.86
+"195","206PSP205-Bluegill-2023","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2023","-122.237903","37.922984",2023,0.082,74.65
+"196","206PSP205-Common Carp-2007","San Pablo Reservoir","206PSP205","Statewide Lakes Sportfish Contamination Study 2007","-122.237903","37.922984",2007,0.126666666666667,79.1944444444444
+"197","206PSP205-Common Carp-2023","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2023","-122.237903","37.922984",2023,0.362,78.76
+"198","206PSP205-Largemouth Bass-2007","San Pablo Reservoir","206PSP205","Statewide Lakes Sportfish Contamination Study 2007","-122.237903","37.922984",2007,0.495142857142857,77.6309090909091
+"199","206PSP205-Largemouth Bass-2017","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.237903","37.922984",2017,0.4585,77.7309523809524
+"200","206PSP205-Largemouth Bass-2020","San Pablo Reservoir","206PSP205","RWB2 Hg TMDL San Pablo Reservoir Pilot Tests 2020","-122.237903","37.922984",2020,0.42712380952381,77.7652222222222
+"201","206PSP205-Largemouth Bass-2023","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2023","-122.237903","37.922984",2023,0.629692307692308,78.5044
+"202","206PSP205-Mississippi silverside-2023","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2023","-122.237903","37.922984",2023,0.165,75.41
+"203","206PSP205-Silverside-2017","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2017","-122.237903","37.922984",2017,0.146,75.28
+"204","206PSP205-Spotted Bass-2020","San Pablo Reservoir","206PSP205","RWB2 Hg TMDL San Pablo Reservoir Pilot Tests 2020","-122.237903","37.922984",2020,0.9473125,77.14575
+"205","206PSP205-Threadfin Shad-2023","San Pablo Reservoir","206PSP205","SWB Long-Term Monitoring of Bass Lk_Res 2023","-122.237903","37.922984",2023,0.029,80.35
+"206","206STAFLK-Black Crappie-2016","Stafford Lake","206STAFLK","SWB Monitoring of Lk_Res 2016","-122.644160","38.113920",2016,0.063,82.38
+"207","206STAFLK-Bluegill-2016","Stafford Lake","206STAFLK","SWB Monitoring of Lk_Res 2016","-122.644160","38.113920",2016,0.123,77.38
+"208","206STAFLK-Largemouth Bass-2016","Stafford Lake","206STAFLK","SWB Monitoring of Lk_Res 2016","-122.644160","38.113920",2016,0.379115384615385,80.5466666666667
+"209","206STAFLK-Redear Sunfish-2016","Stafford Lake","206STAFLK","SWB Monitoring of Lk_Res 2016","-122.644160","38.113920",2016,0.1345,78.64
+"210","206TB0298-Largemouth Bass-2007","Briones Reservoir","206TB0298","Statewide Lakes Sportfish Contamination Study 2007","-122.190540","37.924230",2007,0.2855625,76.76375
+"211","206TH0126-Bluegill-2019","Lake Henne","206TH0126","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.462040","38.587730",2019,0.064,81.45
+"212","206TH0126-Green Sunfish-2019","Lake Henne","206TH0126","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.462040","38.587730",2019,0.07,85.57
+"213","206TH0126-Largemouth Bass-2007","Lake Henne","206TH0126","Statewide Lakes Sportfish Contamination Study 2007","-122.462040","38.587730",2007,0.439842105263158,79.54375
+"214","206TH0126-Largemouth Bass-2019","Lake Henne","206TH0126","SWB Long-Term Monitoring of Bass Lk_Res 2019","-122.462040","38.587730",2019,0.582117647058824,78.5992857142857
+"215","207PLF001-Channel Catfish-2008","Lafayette Reservoir_BOG","207PLF001","Statewide Lakes Sportfish Contamination Study 2008","-122.141280","37.882370",2008,0.0755,78.505
+"216","207PLF001-Crappie-2021","Lafayette Reservoir_BOG","207PLF001","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.141280","37.882370",2021,0.018,76.74
+"217","207PLF001-Largemouth Bass-2008","Lafayette Reservoir_BOG","207PLF001","Statewide Lakes Sportfish Contamination Study 2008","-122.141280","37.882370",2008,0.407285714285714,78.7009090909091
+"218","207PLF001-Largemouth Bass-2021","Lafayette Reservoir_BOG","207PLF001","SWB Long-Term Monitoring of Bass Lk_Res 2021","-122.141280","37.882370",2021,0.163096774193548,79.0716666666667
+"219","207TM0194-Bluegill-2007","Lake Madigan","207TM0194","Statewide Lakes Sportfish Contamination Study 2007","-122.194920","38.309340",2007,0.103,80.205
