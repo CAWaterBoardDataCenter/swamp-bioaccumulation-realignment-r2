@@ -134,7 +134,16 @@ pull = read.csv("R2_Hg_Moist.csv") %>%
             moisture = mean(na.omit(Moisture)),
             # calculate dry weight using forumla: dry-weight = (wet-weight) / [1-(% moisture/100)]
             mercury_ppm_dw = mercury_ugg_ww/(1-(moisture/100))
-            )
+            ) %>%
+  # create a column indicating waterbody type (either Lake & Reservoir or Coastal) to use in map
+  mutate(WaterbodyType = case_when(str_detect(StationName, "Lake") ~  "LakeReservoir",
+                                   str_detect(StationName, "Lago") ~ "LakeReservoir",
+                                   str_detect(StationName, "Reserv") ~ "LakeReservoir",
+                                   str_detect(StationName, "Pond") ~ "LakeReservoir",
+                                   str_detect(StationName, "Bay") ~ "Coastal",
+                                   str_detect(StationName, "Island") ~ "Coastal",
+                                   str_detect(StationName, "Coast") ~ "Coastal",
+                                   str_detect(StationName, "Harbor") ~ "Coastal"))
 
 # In pull, there are 83 columns, and many have different names for the same data type than in dat from the SWAMP Data Dashboard. For example, SampleYear in dat is DWC_Year in pull.
 
@@ -173,7 +182,7 @@ length(setdiff(unique(pull$uniqueID), unique(dat$uniqueID)))
 # 86 are different, whereas the difference in the number of rows is 83 - but there are 3 duplicates in dat, so that makes sense. I think we just want to keep all the samples in the pull dataset and make the map from that data.
 
 # Save a csv of the pull dataset
-write.csv(pull, "pull.csv")
+write.csv(pull, "mercury_ppm.csv")
 
 # Troubleshooting issues with cleaning data ----
 # 1. Tissue types ----
