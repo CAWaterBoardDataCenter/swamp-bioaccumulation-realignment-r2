@@ -1,10 +1,15 @@
 # Cleaning SWAMP Data Dashboard moisture and mercury Region 2 data and converting from wet weight to dry weight
 # Created by Elena Suglia 8.28.24
+# GitHub: @esuglia
 
 # The purpose of this script is to clean two separate csvs containing moisture and mercury data (respectively) pulled from the SWAMP Data Dashboard for Region 2, merge them, and convert mercury concentration units from ug/g wet weight to ppm dry weight. The data will then be mapped using Esri ArcGIS Pro to visualize mercury concentrations across sites in the Bay Area. The map will then be used in Appendix 1 of the SWAMP Bioaccumulation Monitoring Program Realignment Monitoring and Analysis Workplan for the San Francisco Region.
 # During data cleaning, we want to use only data that is from 2007 onward and under the SWAMP statewide program.
 
+# Outline ----
+# Describe the major sections
+
 # TO DO ----
+# Add a section at the bottom showing your work for the Data Dashboard pull
 # Email Jennifer about data without moisture. <done> Decide what to do with these samples.
 # Email Michelle about L1/L2 specifications. List out here what different result types exist in the df for both mercury & moisture. <done>
 # Calculate dry weight
@@ -134,7 +139,7 @@ pull = read.csv("R2_Hg_Moist.csv") %>%
             moisture = mean(na.omit(Moisture)),
             # calculate dry weight using forumla: dry-weight = (wet-weight) / [1-(% moisture/100)]
             mercury_ppm_dw = mercury_ugg_ww/(1-(moisture/100))
-            ) %>%
+  ) %>%
   # create a column indicating waterbody type (either Lake & Reservoir or Coastal) to use in map
   mutate(WaterbodyType = case_when(str_detect(StationName, "Lake") ~  "LakeReservoir",
                                    str_detect(StationName, "Lago") ~ "LakeReservoir",
@@ -185,6 +190,7 @@ length(setdiff(unique(pull$uniqueID), unique(dat$uniqueID)))
 write.csv(pull, "mercury_ppm.csv")
 
 # Troubleshooting issues with cleaning data ----
+# These issues have been resolved, but listed here to document the cleaning process.
 # 1. Tissue types ----
 # After a chat with Anna, decided to keep "skin off" tissue type unless the different tissue type is from a site that is not represented elsewhere in the data.
 
@@ -195,53 +201,53 @@ write.csv(pull, "mercury_ppm.csv")
 
 # To run the following code, go back and un-comment lines 43 & 73.
 # After filtering out other tissue types, let's check what sites remain:
-unique(dat$StationName)
-# All the above stations are still represented, so we are ok to remove all samples with different tissue types than "skin off" (lines 43 & 73 do this).
-
-# 2. Issues with duplicates ----
-# To see this issue, comment out lines 32, 33, 62, & 63.
-
-# How many duplicates are there?
-sum(duplicated(dat$uniqueID) == TRUE)
-
-# Which rows are duplicated?
-duplicated(dat$uniqueID)
-
-# Go into the viewing window and identify the samples that are duplicated based on row numbers for which duplicated == "TRUE". Then, copy and paste the corresponding uniqueID into the search bar and hit enter.
-# Some of the duplicates are the same samples we identified above that have both L1 and L2 samples, so let's ignore those.
-# For the others - let's just look at the first sample that is duplicated:
-# 20150FARI-Blue Rockfish-2009
-# When comparing the duplicate rows, it appears visually that they should have merged. Maybe there is an extra space added somewhere that is making R recognize values differently in a column that should have identical values (e.g. StationName)?
-
-# Let's manually compare a sample that merged correctly with this one by looking at the csvs in excel. That can help us identify discrepancies like spaces.
-
-# look at the sample that merged incorrectly (20150FARI-Blue Rockfish-2009):
-dat1 = dat[1,] # first row is the first instance of this sample
-dat137 = dat[137,] # 137th row is the second instance of the sample
-moisture_test = moisture[1,]
-mercury_test = mercury[1,]
-
-# download the data to visualize in an excel sheet:
-write.csv(dat1, "dat1.csv")
-write.csv(dat137, "dat137.csv")
-write.csv(moisture_test, "moisture_test.csv")
-write.csv(mercury_test, "mercury_test.csv")
-
-# now filter for a sample that merged correctly (here using 20151SMAC-Barred Surfperch-2009):
-moisture_correct = moisture[3,]
-mercury_correct = mercury[3,]
-dat_correct = dat[3,]
-
-# download the data to visualize in an excel sheet:
-write.csv(moisture_correct, "moisture_correct.csv")
-write.csv(mercury_correct, "mercury_correct.csv")
-write.csv(dat_correct, "dat_correct.csv")
-
-# I manually compared the two samples in this dataframe:
-test = read.csv("combined_test_csvs.csv")
-
-# The samples still appear as if they should have merged. What if we try downloading the raw merged data and opening it up in excel:
-write.csv(dat, "dat.csv")
+# unique(dat$StationName)
+# # All the above stations are still represented, so we are ok to remove all samples with different tissue types than "skin off" (lines 43 & 73 do this).
+# 
+# # 2. Issues with duplicates ----
+# # To see this issue, comment out lines 32, 33, 62, & 63.
+# 
+# # How many duplicates are there?
+# sum(duplicated(dat$uniqueID) == TRUE)
+# 
+# # Which rows are duplicated?
+# duplicated(dat$uniqueID)
+# 
+# # Go into the viewing window and identify the samples that are duplicated based on row numbers for which duplicated == "TRUE". Then, copy and paste the corresponding uniqueID into the search bar and hit enter.
+# # Some of the duplicates are the same samples we identified above that have both L1 and L2 samples, so let's ignore those.
+# # For the others - let's just look at the first sample that is duplicated:
+# # 20150FARI-Blue Rockfish-2009
+# # When comparing the duplicate rows, it appears visually that they should have merged. Maybe there is an extra space added somewhere that is making R recognize values differently in a column that should have identical values (e.g. StationName)?
+# 
+# # Let's manually compare a sample that merged correctly with this one by looking at the csvs in excel. That can help us identify discrepancies like spaces.
+# 
+# # look at the sample that merged incorrectly (20150FARI-Blue Rockfish-2009):
+# dat1 = dat[1,] # first row is the first instance of this sample
+# dat137 = dat[137,] # 137th row is the second instance of the sample
+# moisture_test = moisture[1,]
+# mercury_test = mercury[1,]
+# 
+# # download the data to visualize in an excel sheet:
+# write.csv(dat1, "dat1.csv")
+# write.csv(dat137, "dat137.csv")
+# write.csv(moisture_test, "moisture_test.csv")
+# write.csv(mercury_test, "mercury_test.csv")
+# 
+# # now filter for a sample that merged correctly (here using 20151SMAC-Barred Surfperch-2009):
+# moisture_correct = moisture[3,]
+# mercury_correct = mercury[3,]
+# dat_correct = dat[3,]
+# 
+# # download the data to visualize in an excel sheet:
+# write.csv(moisture_correct, "moisture_correct.csv")
+# write.csv(mercury_correct, "mercury_correct.csv")
+# write.csv(dat_correct, "dat_correct.csv")
+# 
+# # I manually compared the two samples in this dataframe:
+# test = read.csv("combined_test_csvs.csv")
+# 
+# # The samples still appear as if they should have merged. What if we try downloading the raw merged data and opening it up in excel:
+# write.csv(dat, "dat.csv")
 
 # Aha! Here, I was able to see that some duplicated rows are due to differences in the numbers of values after the decimal place in the latitude and/or longitude columns (you have to double click on a specific cell to see the total number of values). To remedy this, I added lines 32, 33, 62, and 63 limiting the number of decimal places in these rows to 6, which provides about 4 inches of precision and is plenty for our purposes of mapping the mercury concentration data from R2 (the Bay Area) in Esri ArcGIS Pro.
 
