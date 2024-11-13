@@ -64,6 +64,7 @@ sum(duplicated(pull$uniqueID) == TRUE)
 # 0
 
 # Are there differences in stations? Which are in the pull dataset that are not in the dat dataset?
+# To run this code, first run the code in section "Cleaning data from SWAMP Data Dashboard" that loads the dat dataframe
 setdiff(unique(pull$StationName), unique(dat$StationName))
 
 # [1] "San Mateo Coast"                                            
